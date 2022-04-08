@@ -1,0 +1,17 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "*"
+  inspection: Declares:$OBJETO
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$OBJETO"
+  inspection: DeclaresMethod:descanso
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$OBJETO"
+  inspection: DeclaresMethod:$METODO_INCREMENTA
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$OBJETO"
+  inspection: DeclaresMethod:$METODO_DESCANSO
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$METODO_DESCANSO"
+  inspection: Not:UsesIf

@@ -1,0 +1,17 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+PROCEDIMIENTO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - ArmarBandera
+  - DibujarBandera
+  - ProbarCombinacionBandera
+COLOR_EXTREMOS: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Verde
+  - Rojo
+COLOR_MEDIO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Azul
+  - Negro

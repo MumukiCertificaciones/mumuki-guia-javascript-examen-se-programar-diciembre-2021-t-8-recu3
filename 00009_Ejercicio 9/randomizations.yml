@@ -1,0 +1,29 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+BOLETO_1: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - BoletoUnico
+  - BoletoUsoUnico
+  - BoletoDescartable
+BOLETO_2: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - BoletoConCarga
+  - BoletoConSaldo
+  - BoletoUsoMultiple
+SALDO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 18
+  - 30
+METODO_PERSONA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - viajar!
+  - realizar_viaje!
+METODO_BOLETO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - usar!
+  - ser_usado!
+  - pagar!

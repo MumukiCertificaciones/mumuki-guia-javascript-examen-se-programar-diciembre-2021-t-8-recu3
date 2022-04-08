@@ -1,0 +1,28 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+OBJETO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Morfeo
+  - Sandman
+DESCANSO_INICIAL: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 0
+  - 20
+METODO_INCREMENTA: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - dormir!
+  - descansar!
+  - reposar!
+DESCANSO_CORTE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 30
+  - 50
+METODO_DESCANSO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - necesita_reposo?
+  - necesita_descansar?
+  - necesita_descanso?

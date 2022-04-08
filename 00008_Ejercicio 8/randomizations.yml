@@ -1,0 +1,19 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+OBJETO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - Curso
+  - Alumnado
+  - Estudiantado
+PREDEFINIDO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - aprobo?
+  - aprobo_materia?
+  - ha_aprobado?
+METODO: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - personas_aprobadas
+  - quienes_aprobaron
+  - gente_aprobada

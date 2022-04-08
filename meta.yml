@@ -1,0 +1,19 @@
+---
+name: 'Examen #SeProgramar - Diciembre 2021 T8'
+locale: es
+type: learning
+beta: false
+teacher_info: ''
+language: javascript
+id_format: "%05d"
+order:
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+private: true

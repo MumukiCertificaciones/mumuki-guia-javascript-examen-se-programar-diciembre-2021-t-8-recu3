@@ -1,0 +1,3 @@
+En un curso tenemos un conjunto de estudiantes, a la hora de cerrar las actas es necesario saber quiénes aprobaron :white_check_mark:. Teniendo en cuenta que cada estudiante sabe responder al mensaje `$PREDEFINIDO`...
+
+> Definí en Ruby el método `$METODO` que retorne qué estudiantes aprobaron del `$OBJETO`.

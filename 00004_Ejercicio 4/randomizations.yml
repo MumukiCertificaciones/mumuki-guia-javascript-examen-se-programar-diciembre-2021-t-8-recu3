@@ -1,0 +1,16 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - conocerClima
+  - obtenerClima
+  - comoEsta
+TEMPERATURA_CORTE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 16
+  - 18
+TEMPERATURA_MENOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: expression
+  value:
+  - TEMPERATURA_CORTE - 1

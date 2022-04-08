@@ -1,0 +1,21 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - plantasATrasplantar
+  - aTrasplantar
+  - estanParaTrasplantar
+  - listasParaTrasplantar
+ALTURA_CORTE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: range
+  value:
+  - 20
+  - 28
+ALTURA_MENOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: expression
+  value:
+  - ALTURA_CORTE - 1
+ALTURA_MAYOR: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: expression
+  value:
+  - ALTURA_CORTE + 1

@@ -1,0 +1,5 @@
+Copyright Mayra Mosqueira, Gustavo Trucco and contributors
+
+This content consists of voluntary contributions made by many
+individuals. For exact contribution history, see its revision history
+available at https://github.com/mumukicertificaciones/mumuki-guia-javascript-examen-se-programar-diciembre-2021-t-8-recu3 and the AUTHORS.txt file.

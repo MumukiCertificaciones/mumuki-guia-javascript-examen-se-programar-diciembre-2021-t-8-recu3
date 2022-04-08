@@ -1,0 +1,21 @@
+--- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+FUNCION: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - resumenViajes
+  - resumenDeInformacion
+  - resumenInformacion
+  - resumenDeLosViajes
+STRING_VIAJE: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - viajó por última vez el
+  - realizó su último viaje el
+  - tuvo como fecha de último viaje el
+STRING_VECES: !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  type: one_of
+  value:
+  - y realizó en total
+  - y en total realizó
+  - y en total hizo
+  - e hizo en total

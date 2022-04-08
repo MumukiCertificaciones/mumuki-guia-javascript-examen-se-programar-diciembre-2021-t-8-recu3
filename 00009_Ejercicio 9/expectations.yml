@@ -1,0 +1,11 @@
+---
+expectations:
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: Persona
+  inspection: DeclaresMethod:$METODO_PERSONA
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$BOLETO_1"
+  inspection: DeclaresMethod:$METODO_BOLETO
+- !ruby/hash:ActiveSupport::HashWithIndifferentAccess
+  binding: "$BOLETO_2"
+  inspection: DeclaresMethod:$METODO_BOLETO
